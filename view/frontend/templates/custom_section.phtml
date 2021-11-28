@@ -1,0 +1,17 @@
+<div class="lesite-custom-section" data-bind="scope: 'section'" style="text-align: center">
+    <p data-bind="text: customsection().customerData" style="margin:0;padding: 10px"></p>
+</div>
+<script type="text/x-magento-init">
+    {
+    	"*": {
+        	"Magento_Ui/js/core/app": {
+            	"components": {
+                	"section": {
+                    	"component": "LeSite_CustomBar/js/section"
+                	}
+            	}
+        	}
+    	}
+    }
+</script>
+

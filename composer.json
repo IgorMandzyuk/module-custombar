@@ -1,0 +1,22 @@
+{
+    "name": "lesite/module-custombar",
+    "description": "Magento module that will show a small bar at the top of the page.",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Ihor Mandzuik",
+            "email": "mr.mandzyuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LeSite\\CustomBar\\": ""
+        }
+    }
+}
